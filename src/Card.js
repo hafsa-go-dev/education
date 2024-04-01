@@ -9,10 +9,10 @@ export default function Card({ topicId, topic, setCurrentlyOpen, currentlyOpen }
     }
 
     return <div className="card">
-        <CardTitle key={topic.coursesTaken[0].id} toggleCardOpen={toggleCardOpen} topic={topic} setCurrentlyOpen={setCurrentlyOpen} currentlyOpen={currentlyOpen} />
+        <CardTitle key={topic.coursesTaken[0].id} toggleCardOpen={toggleCardOpen} topic={topic} isOpen={isOpen} />
         {
             isOpen &&
-            <CardContent key={topic.coursesTaken[0].courseName} topic={topic} setCurrentlyOpen={setCurrentlyOpen} currentlyOpen={currentlyOpen} />
+            <CardContent key={topic.coursesTaken[0].courseName} topic={topic} isOpen={isOpen} />
         }
     </div>
 }

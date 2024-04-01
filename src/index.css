@@ -31,6 +31,10 @@ h1 {
 
 .grid-container {
   margin: 2rem 4rem;
+  border-top: 3px solid #afafaf;
+  border-left: 3px solid #afafaf;
+  border-right: 6px solid #afafaf;
+  border-bottom: 6px solid #afafaf;
   /*display: flex;*/
   /*flex-direction: row;*/
 }
@@ -40,7 +44,7 @@ h1 {
 
 .card-title {
   display: flex;
-  flex-direction: rows;
+  flex-direction: row;
   justify-content: space-between;
   background-color: #e4dccf;
   padding: 1rem;
@@ -54,7 +58,6 @@ h1 {
 
 .card-content {
   padding: 1rem;
-  margin: 1rem;
 }
 ul ul {
   margin: 1rem 2rem;
@@ -70,4 +73,16 @@ ul a {
   text-decoration: none;
   color: #576F72;
 
+}
+
+.open-card {
+  border-top: 6px solid #576F72;
+  border-left: 3px solid #576F72;
+  border-right: 3px solid #576F72;
+  color: #576F72;
+}
+
+.open-content {
+  border-left: 3px solid #576F72;
+  border-right: 3px solid #576F72;
 }

@@ -1,5 +1,5 @@
-export default function CardContent({topic, setCurrentlyOpen, currentlyOpen}) {
-    return <div className="card-content">
+export default function CardContent({topic, isOpen}) {
+    return <div className={`card-content ${isOpen ? 'open-content' : ''}`}>
         <ul className="course-list">
             {
                 topic.coursesTaken.map((item) =>
