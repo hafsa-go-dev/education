@@ -77,12 +77,10 @@ ul a {
 
 .open-card {
   border-top: 6px solid #576F72;
-  border-left: 3px solid #576F72;
-  border-right: 3px solid #576F72;
   color: #576F72;
 }
 
-.open-content {
-  border-left: 3px solid #576F72;
-  border-right: 3px solid #576F72;
-}
+/*.open-content {*/
+/*  border-left: 3px solid #576F72;*/
+/*  border-right: 3px solid #576F72;*/
+/*}*/
